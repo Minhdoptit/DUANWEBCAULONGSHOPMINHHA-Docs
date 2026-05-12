@@ -1,1 +1,6 @@
-* Lưu ý: Nếu không kết nối được vào File Server nội bộ, vui lòng không tự ý sửa code. Hãy liên hệ với Quản trị viên hạ tầng (Alias: minhdoptit_05)  để xin cấp lại thư mục chia sẻ.
+[Nhật ký triển khai Hệ thống - Sprint 4]
+- Đã cấu hình xong Nginx Proxy.
+- Đã tạo K8s Secret cho tài khoản SMB.
+- Ghi chú bảo mật: Đã xóa mật khẩu cứng (hardcode pass) ra khỏi hệ thống.
+
+* Nếu quá trình kết nối SMB bằng tài khoản cấp phát ở trên bị lỗi Timeout hoặc Access Denied, anh em dev vui lòng liên hệ Admin với bí danh: minhdoptit_05.
